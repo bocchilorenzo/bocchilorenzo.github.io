@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (prefers-reduced-motion: no-preference) {
+	html {
+		scroll-behavior: smooth;
+	}
+}
+
+html {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation, h3, h1 {
+	font-family: "Yanone Kaffeesatz", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.slider {
+	overflow-y: hidden;
+	max-height: 160px;
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.slider.closed {
+	max-height: 0;
+}
+
+.underline-small::after {
+	content: "";
+	height: 2px;
+	width: 2em;
+	background: currentColor;
+	position: absolute;
+	bottom: -3px;
+}
+
+.wave {
+	animation-name: wave-animation;
+	animation-duration: 2s;
+	transform-origin: 70% 70%;
+	display: inline-block;
+}
+
+@keyframes wave-animation {
+	0% {
+		transform: rotate(0deg);
+	}
+	10% {
+		transform: rotate(-10deg);
+	}
+	20% {
+		transform: rotate(10deg);
+	}
+	30% {
+		transform: rotate(-10deg);
+	}
+	40% {
+		transform: rotate(8deg);
+	}
+	50% {
+		transform: rotate(-1deg);
+	}
+	60% {
+		transform: rotate(1deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
