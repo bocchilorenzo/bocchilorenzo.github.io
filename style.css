@@ -14,7 +14,11 @@ html {
 }
 
 .navigation, h3, h1, #resume {
-	font-family: "Yanone Kaffeesatz", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Fira Sans', 'Trebuchet MS', "Segoe UI", Tahoma, sans-serif;
+}
+
+.sectionTitle{
+	@apply text-2xl font-bold flex flex-col relative w-fit underline-small;
 }
 
 .slider {
