@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Primary Meta Tags -->
     <title>Lorenzo Bocchi | Software developer, Data scientist</title>
@@ -39,22 +46,14 @@
       property="twitter:description"
       content="Hi, I'm Lorenzo and I do Software Development, Data Science and UX Design."
     />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    
-    <link rel="stylesheet" href="/assets/index.7ceef0ca.css">
+    <link rel="stylesheet" href="/assets/index.6c4d44e8.css">
   </head>
 
-  <body class="bg-gray-900 text-white">
+  <body class="bg-gray-900 text-gray-200">
     <nav class="sm:hidden w-full z-10">
       <div class="w-full text-right p-4">
         <button
-          class="outline-none mobile-menu-button text-yellow-400 hover:rotate-12 transition-transform duration-150"
+          class="outline-none mobile-menu-button hover:rotate-12 transition-transform duration-150"
           title="mobile-menu"
         >
           <svg
@@ -73,30 +72,22 @@
       <div class="navigation text-lg mobile-menu slider closed text-right">
         <ul onclick="menu.classList.toggle('closed');">
           <li>
-            <a
-              href="#experience"
-              class="block px-4 py-2 text-yellow-400 hover:font-bold"
+            <a href="#experience" class="block px-4 py-2 hover:font-bold"
               >Work experience</a
             >
           </li>
           <li>
-            <a
-              href="#education"
-              class="block px-4 py-2 text-yellow-400 hover:font-bold"
+            <a href="#education" class="block px-4 py-2 hover:font-bold"
               >Education</a
             >
           </li>
           <li>
-            <a
-              href="#publications"
-              class="block px-4 py-2 text-yellow-400 hover:font-bold"
+            <a href="#publications" class="block px-4 py-2 hover:font-bold"
               >Publications</a
             >
           </li>
           <li>
-            <a
-              href="#projects"
-              class="block px-4 py-2 text-yellow-400 hover:font-bold"
+            <a href="#projects" class="block px-4 py-2 hover:font-bold"
               >Projects</a
             >
           </li>
@@ -106,7 +97,7 @@
 
     <div class="container mx-auto relative max-w-4xl">
       <nav
-        class="navigation text-lg w-full z-10 hidden sm:flex justify-end gap-x-4 p-4 text-center text-yellow-400"
+        class="navigation text-lg w-full z-10 hidden sm:flex justify-end gap-x-4 p-4 text-center"
       >
         <a href="#experience" class="hover:font-bold">Work experience</a>
         <a href="#education" class="hover:font-bold">Education</a>
@@ -118,9 +109,7 @@
         id="title"
         class="relative px-4 py-8 flex flex-col content-center justify-center text-center gap-y-4"
       >
-        <h1 class="text-4xl font-bold text-yellow-400">
-          Hi <span class="wave">👋</span>
-        </h1>
+        <h1 class="text-4xl font-bold">Hi <span class="wave">👋</span></h1>
         <h2 class="text-lg">
           I'm Lorenzo and I do Software Development, Data Science and UX Design
         </h2>
@@ -133,7 +122,7 @@
             target="_blank"
             rel="noopener noreferrer"
             title="Github"
-            class="text-yellow-400 hover:-translate-y-0.5 transition-transform duration-100 ease-out"
+            class="hover:-translate-y-0.5 transition-transform duration-100 ease-out"
           >
             <svg
               class="h-8 w-8 fill-current mx-auto rounded-xl"
@@ -150,7 +139,7 @@
             target="_blank"
             rel="noopener noreferrer"
             title="LinkedIn"
-            class="text-yellow-400 hover:-translate-y-0.5 transition-transform duration-100 ease-out"
+            class="hover:-translate-y-0.5 transition-transform duration-100 ease-out"
           >
             <svg
               class="h-8 w-8 fill-current mx-auto rounded-xl"
@@ -167,7 +156,7 @@
             target="_blank"
             rel="noopener noreferrer"
             title="Telegram"
-            class="text-yellow-400 hover:-translate-y-0.5 transition-transform duration-100 ease-out"
+            class="hover:-translate-y-0.5 transition-transform duration-100 ease-out"
           >
             <svg
               class="h-8 w-8 fill-current mx-auto rounded-xl"
@@ -187,7 +176,7 @@
             href="mailto:lorenzobocchi99@gmail.com"
             target="_blank"
             title="Email"
-            class="text-yellow-400 hover:-translate-y-0.5 transition-transform duration-100 ease-out"
+            class="hover:-translate-y-0.5 transition-transform duration-100 ease-out"
           >
             <svg
               class="h-8 w-8 fill-current mx-auto rounded-xl"
@@ -204,7 +193,7 @@
             title="Resume"
             id="resume"
             download
-            class="text-yellow-400 font-bold rounded-full border-[3px] border-yellow-400 h-8 w-8 pt-[1px] hover:-translate-y-0.5 transition-transform duration-100 ease-out"
+            class="font-bold rounded-full border-[3px] border-gray-200 h-8 w-8 pt-[1px] hover:-translate-y-0.5 transition-transform duration-100 ease-out"
           >
             CV
           </a>
@@ -212,11 +201,7 @@
       </section>
 
       <section id="experience" class="p-4">
-        <h3
-          class="text-2xl font-bold flex flex-col relative w-fit underline-small text-yellow-400"
-        >
-          Relevant work experience
-        </h3>
+        <h3 class="sectionTitle">Relevant work experience</h3>
         <div class="flex flex-col py-2 gap-y-4">
           <div>
             <h4 class="font-bold">
@@ -234,7 +219,8 @@
             </h4>
             <p>2022</p>
             <p>
-              Assisted in the further development of an existing web interface for internal use.
+              Assisted in the further development of an existing web interface
+              for internal use.
             </p>
           </div>
           <div>
@@ -265,19 +251,19 @@
       </section>
 
       <section id="education" class="p-4">
-        <h3
-          class="text-2xl font-bold flex flex-col relative w-fit underline-small text-yellow-400"
-        >
-          Education
-        </h3>
+        <h3 class="sectionTitle">Education</h3>
         <div class="flex flex-col py-2 gap-y-4">
           <div>
             <h4 class="font-bold">
               M.Sc. in Data Science
               <i>@ Università degli Studi di Trento</i>
             </h4>
-            <p>Topics: Machine Learning, Data Analysis, Data Integration, Data Visualization, Statistics, Maths, Python programming, Social Sciences</p>
             <p>September 2021 - July 2023</p>
+            <p>
+              Topics: Machine Learning, Data Analysis, Data Integration, Data
+              Visualization, Statistics, Maths, Python programming, Social
+              Sciences
+            </p>
             <p>Final grade: <b>110L/110</b></p>
           </div>
           <div>
@@ -285,8 +271,8 @@
               Bachelor's in Interfacce e Tecnologie della Comunicazione
               <i>@ Università degli Studi di Trento</i>
             </h4>
-            <p>Topics: Computer Science, UX Design, Psychology, Sociology</p>
             <p>September 2018 - July 2021</p>
+            <p>Topics: Computer Science, UX Design, Psychology, Sociology</p>
             <p>Final grade: <b>107/110</b></p>
           </div>
           <!-- <div>
@@ -297,27 +283,19 @@
       </section>
 
       <section id="publications" class="p-4">
-        <h3
-          class="text-2xl font-bold flex flex-col relative w-fit underline-small text-yellow-400"
-        >
-          Publications
-        </h3>
+        <h3 class="sectionTitle">Publications</h3>
         <div class="flex flex-col py-2 gap-y-4">
           <div>
             <h4 class="font-bold">
-              Erase and rewind: Manual correction of NLP output through a web
-              interface
-              <span class="font-normal">
-                [
-                <a
-                  href="https://aclanthology.org/2021.acl-demo.13/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-cyan-400"
-                >
-                  Link </a
-                >]
-              </span>
+              <a
+                href="https://aclanthology.org/2021.acl-demo.13/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cyan-400"
+              >
+                Erase and rewind: Manual correction of NLP output through a web
+                interface</a
+              >
             </h4>
             <p>
               <i
@@ -328,19 +306,15 @@
           </div>
           <div>
             <h4 class="font-bold">
-              EasyTurk: A User-Friendly Interface for High-Quality Linguistic
-              Annotation with Amazon Mechanical Turk
-              <span class="font-normal">
-                [
-                <a
-                  href="https://aclanthology.org/2021.eacl-demos.13/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-cyan-400"
-                >
-                  Link </a
-                >]
-              </span>
+              <a
+                href="https://aclanthology.org/2021.eacl-demos.13/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cyan-400"
+              >
+                EasyTurk: A User-Friendly Interface for High-Quality Linguistic
+                Annotation with Amazon Mechanical Turk
+              </a>
             </h4>
             <p><i>Association for Computational Linguistics</i> - 2021</p>
           </div>
@@ -348,28 +322,20 @@
       </section>
 
       <section id="projects" class="p-4">
-        <h3
-          class="text-2xl font-bold flex flex-col relative w-fit underline-small text-yellow-400"
-        >
-          Selected academic projects
-        </h3>
+        <h3 class="sectionTitle">Selected academic projects</h3>
         <div class="flex flex-col py-2 gap-y-4">
           <div>
             <h4 class="font-bold">
-              Easyturk
-              <span class="font-normal">
-                [
-                <a
-                  href="https://github.com/dhfbk/easyturk"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-cyan-400"
-                >
-                  Link </a
-                >]
-              </span>
+              <a
+                href="https://github.com/dhfbk/easyturk"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cyan-400"
+              >
+                Easyturk
+              </a>
+              <span class="font-normal"> - <i>Software Development</i></span>
             </h4>
-            <p><i>Software Development</i></p>
             <p>
               Web interface that helps user (and, in particular, researchers) to
               easily submit tasks to Amazon Mechanical Turk.
@@ -377,20 +343,16 @@
           </div>
           <div>
             <h4 class="font-bold">
-              AutoEuroVoc
-              <span class="font-normal">
-                [
-                <a
-                  href="https://github.com/bocchilorenzo/AutoEuroVoc"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-cyan-400"
-                >
-                  Link </a
-                >]
-              </span>
+              <a
+                href="https://github.com/bocchilorenzo/AutoEuroVoc"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cyan-400"
+              >
+                AutoEuroVoc
+              </a>
+              <span class="font-normal"> - <i>Machine Learning</i></span>
             </h4>
-            <p><i>Machine Learning</i></p>
             <p>
               Multilabel classifier for European legal documents. Contains
               scripts to collect the data, build different datasets with
@@ -399,66 +361,50 @@
           </div>
           <div>
             <h4 class="font-bold">
-              Tintful
-              <span class="font-normal">
-                [
-                <a
-                  href="https://github.com/dhfbk/tintful"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-cyan-400"
-                >
-                  Link </a
-                >]
-              </span>
+              <a
+                href="https://github.com/dhfbk/tintful"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cyan-400"
+              >
+                Tintful
+              </a>
+              <span class="font-normal"> - <i>Software Development</i></span>
             </h4>
-            <p><i>Software Development</i></p>
             <p>Web interface for the annotation of natural language text.</p>
           </div>
           <div>
             <h4 class="font-bold">
-              Soundverse
-              <span class="font-normal">
-                [
-                <a
-                  href="https://github.com/bocchilorenzo/soundverse"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-cyan-400"
-                >
-                  Link </a
-                >]
-              </span>
+              <a
+                href="https://github.com/bocchilorenzo/soundverse"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cyan-400"
+              >
+                Soundverse
+              </a>
+              <span class="font-normal"> - <i>Software Development</i></span>
             </h4>
-            <p><i>Software Development</i></p>
             <p>Web social interface to review albums.</p>
           </div>
         </div>
       </section>
 
       <section class="p-4">
-        <h3
-          class="text-2xl font-bold flex flex-col relative w-fit underline-small text-yellow-400"
-        >
-          Selected personal projects
-        </h3>
+        <h3 class="sectionTitle">Selected personal projects</h3>
         <div class="flex flex-col py-2 gap-y-4">
           <div>
             <h4 class="font-bold">
-              XRadio
-              <span class="font-normal">
-                [
-                <a
-                  href="https://github.com/bocchilorenzo/xradio"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-cyan-400"
-                >
-                  Link </a
-                >]
-              </span>
+              <a
+                href="https://github.com/bocchilorenzo/xradio"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cyan-400"
+              >
+                XRadio
+              </a>
+              <span class="font-normal"> - <i>Software Development</i></span>
             </h4>
-            <p><i>Software Development</i></p>
             <p>
               Cross platform desktop radio app made with Vue.js, Neutralino.js
               and NodeJS.
@@ -466,20 +412,16 @@
           </div>
           <div>
             <h4 class="font-bold">
-              Coverscape
-              <span class="font-normal">
-                [
-                <a
-                  href="https://github.com/bocchilorenzo/CoverScape"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-cyan-400"
-                >
-                  Link </a
-                >]
-              </span>
+              <a
+                href="https://github.com/bocchilorenzo/CoverScape"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cyan-400"
+              >
+                Coverscape
+              </a>
+              <span class="font-normal"> - <i>Software Development</i></span>
             </h4>
-            <p><i>Software Development</i></p>
             <p>
               Web interface to easily find and download album covers from
               multiple sources.
@@ -487,38 +429,30 @@
           </div>
           <div>
             <h4 class="font-bold">
-              Tidal Unofficial
-              <span class="font-normal">
-                [
-                <a
-                  href="https://github.com/bocchilorenzo/tidal_unofficial"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-cyan-400"
-                >
-                  Link </a
-                >]
-              </span>
+              <a
+                href="https://github.com/bocchilorenzo/tidal_unofficial"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cyan-400"
+              >
+                Tidal Unofficial
+              </a>
+              <span class="font-normal"> - <i>Software Development</i></span>
             </h4>
-            <p><i>Software Development</i></p>
             <p>Python library to use the Tidal API without authentication.</p>
           </div>
           <div>
             <h4 class="font-bold">
-              NTScraper
-              <span class="font-normal">
-                [
-                <a
-                  href="https://github.com/bocchilorenzo/ntscraper"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-cyan-400"
-                >
-                  Link </a
-                >]
-              </span>
+              <a
+                href="https://github.com/bocchilorenzo/ntscraper"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cyan-400"
+              >
+                NTScraper
+              </a>
+              <span class="font-normal"> - <i>Software Development</i></span>
             </h4>
-            <p><i>Software Development</i></p>
             <p>
               Python library library to scrape Twitter profiles and posts from
               Nitter instances.
